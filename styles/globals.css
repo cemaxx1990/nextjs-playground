@@ -1,0 +1,29 @@
+@import '_headlines.css';
+@import '_header.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.intro {
+    @apply bg-cover bg-no-repeat;
+    background-image: url('/img/bg-hero.jpg');
+}
+
+.logo {
+    @apply transition-all duration-500 ease-in flex justify-center;
+    width: 60vw;
+
+    @screen md {
+        width: 40vw;
+    }
+
+    &--fixed {
+        @apply fixed top-2 z-50;
+         width: 25%;
+
+        @screen md {
+            @apply top-8;
+            width: 10%;
+        }
+    }
+}
