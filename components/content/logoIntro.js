@@ -55,7 +55,8 @@ const LogoIntro = () => {
                     <Image
                         src={logoPng}
                         alt={content.general.logoAlt}
-                        className={"w-full"}
+                        className={'w-full'}
+                        priority={true}
                     />
                 </a>
             </Link>

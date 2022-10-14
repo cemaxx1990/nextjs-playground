@@ -6,7 +6,11 @@
 
 .intro {
     @apply bg-cover bg-no-repeat;
-    background-image: url('/img/bg-hero.jpg');
+    background-image: url('/img/bg-hero-mobile.jpg');
+
+    @screen md {
+        background-image: url('/img/bg-hero.jpg');
+    }
 }
 
 .logo {

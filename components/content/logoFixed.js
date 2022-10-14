@@ -12,6 +12,7 @@ const LogoFixed = () => {
                         src={logoPng}
                         alt={content.general.logoAlt}
                         className={"w-full"}
+                        priority={true}
                     />
                 </a>
             </Link>

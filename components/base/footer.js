@@ -5,8 +5,8 @@ import content from '../../public/locales/de/content.json'
 const Footer = () => {
     return (
         <>
-            <section className={'bg-gray-900 text-white'} id={'kontakt'}>
-                <section className={'max-w-screen-xl mx-auto px-4 py-20'}>
+            <section className={'bg-gray-900 text-white'} id={content.general.contactId}>
+                <div className={'max-w-screen-xl mx-auto px-4 py-20'}>
                     <div className={'grid grid-cols-1 md:grid-cols-2 gap-20'}>
                         <div>
                             <h2 className={'pb-2'}>{content.preFooter.headline}</h2>
@@ -24,7 +24,7 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                </section>
+                </div>
             </section>
 
             <footer className={'bg-black text-white py-4 flex justify-center'}>

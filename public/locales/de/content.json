@@ -7,7 +7,8 @@
     "emailText": "Email senden",
     "fullName": "Jan Stumpenhagen",
     "logoAlt": "jayPi Logo",
-    "imgTeaserAlt": "Bild Teaser"
+    "imgTeaserAlt": "Bild Teaser",
+    "contactId": "kontakt"
   },
   "mainNav": {
     "aboutme": {
