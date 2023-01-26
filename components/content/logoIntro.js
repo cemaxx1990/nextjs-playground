@@ -1,5 +1,5 @@
 import { useEffect, useState, useRef, useCallback } from 'react'
-import Image from 'next/image'
+import Image from 'next/future/image'
 import Link from 'next/link'
 import logoPng from '../../public/img/logo-jaypi.png'
 import content from '../../public/locales/de/content.json'
